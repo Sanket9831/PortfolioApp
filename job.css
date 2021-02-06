@@ -1,0 +1,27 @@
+*{
+
+padding: 10px;
+}
+body {
+    background-color: green;
+}
+h1{
+text-align: center;
+text-decoration: underline;
+color: white;
+}
+#name{
+width: 80%;
+padding: 5px;
+border-radius: 5%;
+outline: 0;
+border: 1px solid green;
+}
+
+table{
+color: white;
+	background-color:grey;
+	border-collapse: collapse;
+	font-size: 16px;
+	font-family: serif;
+}

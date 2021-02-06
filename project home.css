@@ -1,0 +1,78 @@
+* {box-sizing: border-box;}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.main {
+  background-color: black;
+    overflow: auto;
+}
+
+.main a {
+  float: left;
+  display:inline-block;
+  color: red;
+  text-align: center;
+  padding: 24px 30px;
+  text-decoration: none;
+  width:auto;
+  font-size: 37px;
+  border-radius: 50px;
+}
+
+.main a:hover {
+  background-color:lightblue;
+  color: black;
+  transition: 1s ease;
+}
+
+.main input{
+  float: right;
+  padding: 15px;
+  margin-top: 32px;
+  margin-right: 36px;
+  border: red;
+  font-size: 20px;
+}
+
+.main input{
+    border:9px double red;  
+  }
+  #Sidenav a{
+position: absolute;
+left: -80px;
+width: auto;
+padding: 25px 25px;
+width: 100px;
+text-decoration: none;
+text-align: center;
+font-size: 15px;
+color: red;
+border-radius: 5px 5px 5px 5px;
+}  
+#Sidenav a:hover{
+left: 0;
+transition: 0.7s ease;
+color: white;
+}
+#about{
+  bottom: 240px;
+  background-color: green;
+}
+#blog{
+  bottom: 180px;
+  background-color: skyblue;
+}
+#project{
+  bottom: 120px;
+  background-color: tomato;
+}
+#contact{
+  bottom: 37px;
+  background-color: grey;
+}
+#job{
+  bottom: 0px;
+  background-color: pink;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="google_translate_element">
+<head>
+	<title>TOggle effect using jquery.</title>
+	<script src="jquery.js"></script>
+	<script>
+		$(document).ready(function() {
+			 $("#B1").click(function(){
+             if($("#B1").html()=="SHOW")
+             { 
+				$(this).html("HIDE");
+				$("img").show();
+             }
+             else
+             {
+             	$(this).html("SHOW");
+             	$("img").hide();
+             }
+        
+		});
+	});	 
+	</script>
+   <style>
+    	img
+    	{
+    		display: none;
+    	}
+    </style>
+</head>
+<body bgcolor="tomato">
+   <h2>CLICK TO SHOW CLICK TO HIDE</h2>
+   <button id="B1">SHOW</button></br>
+   <img src="open mic2.jpg"></br>
+   <button type="button" 
+   onclick="document.getElementById('demo').innerHTML =Date()">Click me to display Date and Time.</button>
+    <p id="demo"></p>
+    <div id="google_translate_element"></div>
+
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+}
+</script>
+
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</body>
+</html>
